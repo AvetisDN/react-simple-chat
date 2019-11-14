@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+    <div class="container bg-white my-3 shadow">
+        <div class="row">
+            <div class="col-12 col-md-8 col-lg-6 mx-auto py-3">
+
+                <form id="msg-form">
+                    <div class="form-group row">
+                        <label for="name" class="col">Name:</label>
+                        <input id="name" placeholder="Name" class="form-control col">
+                    </div>
+                    <div class="form-group row">
+                        <label for="msg" class="col-auto">Message:</label>
+                        <input id="msg" placeholder="Message" class="form-control col">
+                    </div>
+                    <div class="form-group row d-flex justify-content-end">
+                        <button class="btn btn-primary px-5 text-uppercase">send</button>
+                    </div>
+                </form>
+                <div class="row">
+                    <div id="chat" class="col-12 p-0"></div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="test.js"></script>
+
+</body>
+</html>
